@@ -23,15 +23,15 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
+  --gray-dark: #02874d;
   --primary: #1abc9c;
-  --secondary: #2c3e50;
+  --secondary: #02874d;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #02874d;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #02874d;
   text-decoration: underline;
 }
 
@@ -2474,12 +2474,12 @@ fieldset:disabled a.btn {
 .btn-secondary:hover {
   color: #fff;
   background-color: #1e2b37;
-  border-color: #1a252f;
+  border-color: #02874d;
 }
 .btn-secondary:focus, .btn-secondary.focus {
   color: #fff;
   background-color: #1e2b37;
-  border-color: #1a252f;
+  border-color: #02874d;
   box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
@@ -2489,7 +2489,7 @@ fieldset:disabled a.btn {
 }
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #1a252f;
+  background-color: #02874d;
   border-color: #151e27;
 }
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
@@ -4699,7 +4699,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 }
 a.badge-secondary:hover, a.badge-secondary:focus {
   color: #fff;
-  background-color: #1a252f;
+  background-color: #02874d;
 }
 a.badge-secondary:focus, a.badge-secondary.focus {
   outline: 0;
@@ -6079,17 +6079,17 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #9AE785 !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #02874d !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #1a252f !important;
+  background-color: #02874d !important;
 }
 
 .bg-success {
@@ -10231,10 +10231,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #02874d;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #02874d;
 }
