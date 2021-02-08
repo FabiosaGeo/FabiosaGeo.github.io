@@ -2,7 +2,7 @@
 
 <!-- This page was created by FabiosaGeo -->
 <!-- Programming Languages: Python, C, C++, Java, Javascrypt, Node.js, SQL and PHP -->
-<!-- Markup Languages: HTML, Markdown (for README.mb) and CSS -->
+<!-- Markup Languages: HTML, Markdown (for README.md) and CSS -->
 <!-- DataBase: PostgreSQL -->
 <!-- API: GeocachingHQ_API -->
 
@@ -23,6 +23,8 @@
 
         <!-- CSS and JavaScript Styles folder -->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/gallery.css" rel="stylesheet" />
+        <link href="js/gallery.js" rel="stylesheet" />
 
     </head>
 
@@ -57,8 +59,8 @@
                     <ul class="navbar-nav ml-auto">
 
                         <!-- Main Menu -->
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#cache-types">Caches
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Fotos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#tipos-cache">Caches
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#fotos">Fotos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Aventuras</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacta-me</a></li>
 
@@ -90,7 +92,7 @@
         
         <!-- Caches -->
 
-        <section class="page-section portfolio" id="cache-types" >
+        <section class="page-section portfolio" id="tipos-cache" >
             <div class="container">
 
                 <!-- Title-->
@@ -160,27 +162,91 @@
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+
+        <!-- Fotos -->
+        <section class="page-section bg-primary text-white mb-0" id="#fotos">
             <div class="container">
+
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text text-white">Fotografias</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
                 </div>
+                <!-- https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <!-- Container for the image gallery -->
+                                <div class="container">
+
+                                    <!-- Full-width images with number text -->
+                                    <div class="mySlides">
+                                    <div class="numbertext">1 / 6</div>
+                                        <img src="Others/img/portfolio/cabin.png" style="width:100%">
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">2 / 6</div>
+                                        <img src="Others/img/portfolio/cabin.png" style="width:100%">
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">3 / 6</div>
+                                        <img src="Others/img/portfolio/cabin.png" style="width:100%">
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">4 / 6</div>
+                                        <img src="Others/img/portfolio/cabin.png" style="width:100%">
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">5 / 6</div>
+                                        <img src="Others/img/portfolio/cabin.png" style="width:100%">
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">6 / 6</div>
+                                        <img src="Others/img/portfolio/cabin.png" style="width:100%">
+                                    </div>
+                                
+                                    <!-- Next and previous buttons -->
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                    <!-- Image text -->
+                                    <div class="caption-container">
+                                    <p id="caption"></p>
+                                    </div>
+                                
+                                    <!-- Thumbnail images -->
+                                    <div class="row">
+                                    <div class="column">
+                                        <img class="demo cursor" src="Others/img/portfolio/cabin.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo cursor" src="Others/img/portfolio/cabin.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo cursor" src="Others/img/portfolio/cabin.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo cursor" src="Others/img/portfolio/cabin.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo cursor" src="Others/img/portfolio/cabin.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                                    </div>
+                                    <div class="column">
+                                        <img class="demo cursor" src="Others/img/portfolio/cabin.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                                    </div>
+                                    </div>
+                                </div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <a class="btn btn-xl btn-outline-light" href="/Fotos-Galeria">
                         <i class="fas fa-download mr-2"></i>
-                        Free Download!
+                        Ir para a Galeria
                     </a>
                 </div>
             </div>
