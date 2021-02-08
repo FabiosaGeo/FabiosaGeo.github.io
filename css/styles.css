@@ -47,6 +47,8 @@
   box-sizing: border-box;
 }
 
+
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -66,7 +68,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(246, 237, 237);
+;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -477,6 +480,10 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-type {
+  box-align: center;
 }
 
 .img-thumbnail {
@@ -9777,7 +9784,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #1abc9c !important;
+  color: #1fffff !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
