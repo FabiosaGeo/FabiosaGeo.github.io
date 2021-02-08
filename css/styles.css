@@ -6072,8 +6072,9 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+/*Cores de fundo*/
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #A8E289 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -7352,6 +7353,7 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+  text-align: left;
 }
 
 .fixed-bottom {
@@ -9939,6 +9941,7 @@ h3 {
 
   .container {
     min-width: 992px !important;
+    text-align: left;
   }
 
   .navbar {
