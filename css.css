@@ -1,0 +1,27 @@
+html {
+    margin: 0em;
+    text-align: center;
+    --green: rgb(2, 135, 77);
+    --grey: rgb(197, 197, 197);
+}
+
+header {
+    background-color: var(--green);
+    color: white;
+    padding: 1.5em;
+}
+
+main {
+    padding: 1em;
+    background-color: var(--grey);
+}
+
+ol > li {
+    list-style: none;
+}
+
+footer {
+    padding: 1em;
+    background-color: var(--green);
+    color: white;
+}
