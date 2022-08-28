@@ -1,4 +1,7 @@
 html {
+
+    margin-left: auto;
+    margin-right: auto;
     margin: 0em;
     padding: 0em;
     text-align: center;
@@ -25,6 +28,21 @@ ul {
 
 li {
     padding: 0.5em;
+}
+
+button {
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+}
+
+button:active {
+    background-color: #496159;
 }
 
 footer {
