@@ -1,5 +1,6 @@
 html {
     margin: 0em;
+    padding: 0em;
     text-align: center;
     --green: rgb(2, 135, 77);
     --grey: rgb(197, 197, 197);
@@ -16,8 +17,14 @@ main {
     background-color: var(--grey);
 }
 
-ol > li {
-    list-style: none;
+ul {
+    list-style-type: none;  
+    text-decoration: solid;
+    padding: 0em;
+}
+
+li {
+    padding: 0.5em;
 }
 
 footer {
