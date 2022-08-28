@@ -24,6 +24,7 @@ ul {
     list-style-type: none;  
     text-decoration: solid;
     padding: 0em;
+    letter-spacing: 0.1em;
 }
 
 li {
@@ -49,4 +50,10 @@ footer {
     padding: 1em;
     background-color: var(--green);
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        max-width: 40em;
+    }
 }
